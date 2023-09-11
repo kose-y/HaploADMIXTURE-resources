@@ -21,4 +21,6 @@ Each real data directory (TGP, HGDP, HO) contains the following:
 - `run_[].jl`: Run HaploADMIXTURE with the dataset filtered with `filter_[].jl`.
 - `run_admix_full.jl`: Run OpenADMIXTURE with the original dataset.
 
+Please note that the released version of the package on https://github.com/OpenMendel/HaploADMIXTURE.jl contains the function `run_admixture()` to simplify the code.
+
 For the `Simulation` directory, there is the `simulation.jl` file to generate datasets for simulation.
