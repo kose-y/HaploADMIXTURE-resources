@@ -9,4 +9,3 @@ To download the 1000 Genomes Project (TGP), Human Genome Diversity Project (HGDP
 The directory `environments` defines Julia package environment for the experiments. To install all the packages, 
 - launch Julia with `--project=<path-to-this directory>/environments/v1.7` or activate the environment with `using Pkg; Pkg.activate(normpath("<path-to-this directory>/environments/v1.7"))`,
 - then run `using Pkg; Pkg.instantiate()`.
-- Note that the experiments were conducted in Julia 1.7, while the Manifest information in the published packages has been upgraded to Julia v1.9.
