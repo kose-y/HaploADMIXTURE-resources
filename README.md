@@ -10,6 +10,8 @@ The files `Project.toml` and `Manifest.toml` define Julia package environment fo
 - launch Julia with `--project=<path-to-this directory>` or activate the environment with `using Pkg; Pkg.activate(normpath("<path-to-this directory>"))`,
 - then run `using Pkg; Pkg.instantiate()`.
 
+_Please note that the name of the SKFR package has changed from SKFR to SparseKmeansFeatureRanking._
+
 
 Each real data directory (TGP, HGDP, HO) contains the following:
 - `filter_[].jl`: filtering the original datasets using SKFR.
